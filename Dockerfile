@@ -8,5 +8,6 @@ RUN npm run build
 
 # start of Run phase (default nginx command starts up the server)
 FROM nginx
+EXPOSE 80
 COPY --from=builder /app/build /usr/share/nginx/html
 
