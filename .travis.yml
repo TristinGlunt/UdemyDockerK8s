@@ -14,7 +14,7 @@ deploy:
   region: "us-east-2"
   app: "Udemy-Docker"
   env: "UdemyDocker-env"
-  bucket_name: "arn:aws:s3:::elasticbeanstalk-us-east-2-998356759017"
+  bucket_name: "elasticbeanstalk-us-east-2-998356759017"
   bucket_path: "Udemy-Docker"
   on:
     branch: master
